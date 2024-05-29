@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <h1>0</h1>
-      <button onClick={()=>console.log("증가되는 가?")}>증가</button>
+      <button onClick={()=>{console.log("클릭됨")}}>증가</button>
     </div>
   );
 }
