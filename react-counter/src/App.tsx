@@ -10,7 +10,12 @@ function App() {
   return (
     <div>
       <h1>{count}</h1>
-      <button onClick={()=> reCount((현재count)=> 현재count+ 1)}>증가</button>
+      <button onClick={() => reCount((현재count) => 현재count + 1)}>
+        증가
+      </button>
+      <button onClick={() => reCount((현재count) => 현재count - 1)}>
+        감소
+      </button>
     </div>
   );
 }
