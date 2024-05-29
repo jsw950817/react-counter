@@ -12,12 +12,11 @@ function App() {
       <h1>{count}</h1>
       <button onClick={() => reCount((현재count) => 현재count + 1)}>
         증가
-      </button>
+      </button>{" "}
       <button onClick={() => reCount((현재count) => 현재count - 1)}>
         감소
-      </button>      <button onClick={() => reCount((현재count) => 0)}>
-        초기화
-      </button>
+      </button>{" "}
+      <button onClick={() => reCount((현재count) => 0)}>초기화</button>
     </div>
   );
 }
